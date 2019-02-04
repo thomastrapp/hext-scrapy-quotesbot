@@ -1,3 +1,18 @@
+# Scrapy QuotesBot with Hext
+
+This is a fork of Scrapy's QuotesBot. It adds a new spider called [toscrape-hext](quotesbot/spiders/toscrape-hext.py).
+
+```
+$ pip install hext scrapy
+$ scrapy list
+toscrape-css
+toscrape-hext
+toscrape-xpath
+$ scrapy crawl toscrape-hext -o quotes.json
+```
+
+Original readme:
+
 # QuotesBot
 This is a Scrapy project to scrape quotes from famous people from http://quotes.toscrape.com ([github repo](https://github.com/scrapinghub/spidyquotes)).
 
